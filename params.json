@@ -1,1 +1,1 @@
-{"name":"C++ by example","tagline":"","body":"### Minimal C++ program.\r\n\r\n    int main() {\r\n    }","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{"name":"C++ by example","tagline":"","body":"### Minimal C++ program.\r\n\r\n    int main() {\r\n    }\r\n\r\n### Hello World.\r\n\r\n    #include <iostream>\r\n    int main() {\r\n      std::cout << \"Hello World!\\n\";\r\n    }\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}

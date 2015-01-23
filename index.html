@@ -30,44 +30,41 @@
         <h3>
 <a id="minimal-c-program" class="anchor" href="#minimal-c-program" aria-hidden="true"><span class="octicon octicon-link"></span></a>Minimal C++ program.</h3>
 
-<pre><code>int main() {
-}
-</code></pre>
+<div class="highlight highlight-c++"><pre><span class="pl-st">int</span> <span class="pl-en">main</span>() {
+}</pre></div>
 
 <h3>
 <a id="hello-world" class="anchor" href="#hello-world" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World.</h3>
 
-<pre><code>#include &lt;iostream&gt;
-int main() {
-  std::cout &lt;&lt; "Hello World!\n";
-}
-</code></pre>
+<div class="highlight highlight-c++"><pre>#<span class="pl-k">include</span> <span class="pl-s1"><span class="pl-pds">&lt;</span>iostream<span class="pl-pds">&gt;</span></span>
+<span class="pl-st">int</span> <span class="pl-en">main</span>() {
+  std::cout &lt;&lt; <span class="pl-s1"><span class="pl-pds">"</span>Hello World!<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>;
+}</pre></div>
 
 <h3>
 <a id="hello-world-broken-down" class="anchor" href="#hello-world-broken-down" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World Broken Down.</h3>
 
-<pre><code>// Makes available standard stream I/O objects like std::cout
-#include &lt;iostream&gt;
+<div class="highlight highlight-c++"><pre><span class="pl-c">// Makes available standard stream I/O objects like std::cout</span>
+#<span class="pl-k">include</span> <span class="pl-s1"><span class="pl-pds">&lt;</span>iostream<span class="pl-pds">&gt;</span></span>
 
-// Defines the entry point which every C++ program must have.
-// Is a function that takes no arguments and returns an integer
-// to the operating system.
-int main() {
-  // Opening and closing braces { } contain the body of the main function      
+<span class="pl-c">// Defines the entry point which every C++ program must have.</span>
+<span class="pl-c">// Is a function that takes no arguments and returns an integer</span>
+<span class="pl-c">// to the operating system.</span>
+<span class="pl-st">int</span> <span class="pl-en">main</span>() {
+  <span class="pl-c">// Opening and closing braces { } contain the body of the main function      </span>
 
-  // The operator &lt;&lt; outputs the string literal on the right-hand-side
-  // to the stream object on the left-hand-side.
-  // The std:: indicates that the cout object can be found in the std
-  // namespace. 
-  std::cout &lt;&lt; "Hello World!\n";
+  <span class="pl-c">// The operator &lt;&lt; outputs the string literal on the right-hand-side</span>
+  <span class="pl-c">// to the stream object on the left-hand-side.</span>
+  <span class="pl-c">// The std:: indicates that the cout object can be found in the std</span>
+  <span class="pl-c">// namespace. </span>
+  std::cout &lt;&lt; <span class="pl-s1"><span class="pl-pds">"</span>Hello World!<span class="pl-cce">\n</span><span class="pl-pds">"</span></span>;
 
-  // Normally a function returning an integer should include a return
-  // statement but main() is special and if it contains no return
-  // statement it is treated as having the following return statement:
-  // return 0;
-  // Which indicates "success".
-}
-</code></pre>
+  <span class="pl-c">// Normally a function returning an integer should include a return</span>
+  <span class="pl-c">// statement but main() is special and if it contains no return</span>
+  <span class="pl-c">// statement it is treated as having the following return statement:</span>
+  <span class="pl-c">// return 0;</span>
+  <span class="pl-c">// Which indicates "success".</span>
+}</pre></div>
       </section>
     </div>
 

@@ -42,6 +42,32 @@ int main() {
   std::cout &lt;&lt; "Hello World!\n";
 }
 </code></pre>
+
+<h3>
+<a id="hello-world-broken-down" class="anchor" href="#hello-world-broken-down" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hello World Broken Down.</h3>
+
+<pre><code>// Makes available standard stream I/O objects like std::cout
+#include &lt;iostream&gt;
+
+// Defines the entry point which every C++ program must have.
+// Is a function that takes no arguments and returns an integer
+// to the operating system.
+int main() {
+  // Opening and closing braces { } contain the body of the main function      
+
+  // The operator &lt;&lt; outputs the string literal on the right-hand-side
+  // to the stream object on the left-hand-side.
+  // The std:: indicates that the cout object can be found in the std
+  // namespace. 
+  std::cout &lt;&lt; "Hello World!\n";
+
+  // Normally a function returning an integer should include a return
+  // statement but main() is special and if it contains no return
+  // statement it is treated as having the following return statement:
+  // return 0;
+  // Which indicates "success".
+}
+</code></pre>
       </section>
     </div>
 
